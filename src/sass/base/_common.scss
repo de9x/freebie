@@ -1,3 +1,17 @@
 body {
   @include roboto($fw-regular);
 }
+
+.section-outer {
+  border-bottom: 1px solid $color-divider;
+}
+
+.section-inner {
+  max-width: 900px;
+  margin: 0 auto;
+  padding-top: $padding-vertical;
+  padding-bottom: $padding-vertical;
+  &--wide {
+    max-width: 1200px;
+  }
+}

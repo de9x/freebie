@@ -1,0 +1,13 @@
+.btn {
+  @include quicksand($fw-bold);
+
+  width: 113px;
+  height: 43px;
+  text-align: center;
+  background: #D2E1FF;
+  border: none;
+  border-radius: 2px;
+  font-size: 13px;
+  color: #3A79FF;
+  cursor: pointer;
+}

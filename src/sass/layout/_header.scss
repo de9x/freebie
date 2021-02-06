@@ -3,4 +3,78 @@
     padding-top: $padding-vertical-xs;
     padding-bottom: $padding-vertical-xs;
   }
+  .btn {
+    margin-left: 44px;
+  }
+}
+
+.logo {
+  width: 26px;
+  height: 26px;
+  border-radius: 100%;
+  background-color: #5E81FE;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  margin-left: 70px;
+  &-wrapper {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    &__item {
+      & + & {
+        margin-left: 40px;
+      }
+    }
+    &__link {
+      @include quicksand($fw-medium);
+      
+      color: #697CA6;
+      text-decoration: none;
+      font-size: 12px;
+      transition: $transition;
+  
+      &:hover {
+        color: #5E81FE;
+      }
+  
+      &--active {
+        font-weight: $fw-bold;
+        color: #5E81FE;
+      }
+    }
+  }
+}
+
+
+.social {
+  margin-left: auto;
+  &-wrapper {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    &__item {
+      & + & {
+        margin-left: 36px;
+      }
+    }
+    &__link {
+      path {
+        fill: #B6BAC7;
+        transition: $transition;
+      }
+      &:hover {
+        path {
+          fill: #6188FF;
+        }
+      }
+    }
+  }
 }

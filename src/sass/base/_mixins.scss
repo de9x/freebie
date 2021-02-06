@@ -1,0 +1,11 @@
+@mixin roboto($fw) {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: $fw;
+}
+
+@mixin quicksand($fw) {
+  font-family: 'Quicksand', sans-serif;
+  font-style: normal;
+  font-weight: $fw;
+}

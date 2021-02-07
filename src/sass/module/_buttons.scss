@@ -1,0 +1,21 @@
+.btn {
+  @include quicksand($fw-bold);
+
+  padding: 13px 15px;
+  margin: 0;
+  font-size: $fz-sm;
+  text-decoration: none;
+  background-color: none;
+  border: 0;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: $transition;
+
+  &--primary {
+    background: #D2E1FF;
+    color: #3A79FF;
+    &:hover {
+      background-color: darken(#D2E1FF, 5%);
+    }
+  }
+}

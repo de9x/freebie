@@ -6,4 +6,16 @@
     padding-top: $padding-vertical-sm;
     padding-bottom: $padding-vertical-sm;
   }
+  &__copyright {
+    margin-top: 28px;
+    margin-left: 96px;
+  }
+}
+
+.copyright {
+  @include quicksand($fw-medium);
+
+  font-size: $fz-sm;
+  text-transform: capitalize;
+  color: #AEB8D0;
 }

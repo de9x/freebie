@@ -10,9 +10,7 @@
   margin-left: 70px;
   &-wrapper {
     display: flex;
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
+    @include ul-reset;
     &__item {
       & + & {
         margin-left: 40px;
@@ -43,9 +41,7 @@
   margin-left: auto;
   &-wrapper {
     display: flex;
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
+    @include ul-reset;
     &__item {
       & + & {
         margin-left: 36px;

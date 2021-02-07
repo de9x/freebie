@@ -9,3 +9,9 @@
   font-style: normal;
   font-weight: $fw;
 }
+
+@mixin ul-reset {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
